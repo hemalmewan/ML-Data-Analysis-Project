@@ -17,14 +17,14 @@ pipeline {
         stage('Build Docker image') {
             steps {
                 echo 'Building Docker image...'
-                sh "docker build -t $IMAGE_NAME:$DOCKER_TAG ."
+                bat "docker build -t $IMAGE_NAME:$DOCKER_TAG ."
             }
         }
 
         stage('Run container') {
             steps {
                 echo 'Running container...'
-                sh "docker run -d -p 8501:8501 -p 8000:8000 $IMAGE_NAME:$DOCKER_TAG"
+                bat "docker run -d -p 8501:8501 -p 8000:8000 $IMAGE_NAME:$DOCKER_TAG"
             }
         }
 
