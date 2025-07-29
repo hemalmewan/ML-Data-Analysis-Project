@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "ME-CFS-Depression-Detection"
+        IMAGE_NAME = "me-cfs-depression-detection"
         DOCKER_TAG = "latest"
     }
 
