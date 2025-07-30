@@ -34,7 +34,7 @@ if menu == "Home":
         st.session_state.auto_slide = True
 
     # Image display
-    st.image(images[st.session_state.img_index], use_container_width=True)
+    st.image(images[st.session_state.img_index])
 
     # Manual controls
     col1, col2, col3 = st.columns([1, 1, 2])
