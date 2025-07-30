@@ -128,17 +128,17 @@ elif menu == "Team Members":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.image("../static/images/member3.jpg", width=150)
+        st.image("..\\static\\images\\member3.jpg", width=150)
         st.markdown("**Maheesha Sewmini**  \n*Data Scientist*")
         st.caption("Maheesha specializes in data analytics and visualization, delivering insights from complex datasets.")
 
     with col2:
-        st.image("../static/images/HemalMewantha.jpg", width=150)
+        st.image("..\\static\\images\\HemalMewantha.jpg", width=150)
         st.markdown("**Hemal Mewantha**  \n*Backend Developer*")
         st.caption("Hemal focuses on robust backend systems and API development with expertise in scalable architectures.")
 
     with col3:
-        st.image("../static/images/member1.jpg", width=150)
+        st.image("..\\static\\images\\member1.jpg", width=150)
         st.markdown("**Sanjana Fernando**  \n*ML Engineer*")
         st.caption("Sanjana builds and deploys machine learning models with a focus on real-time prediction systems.")
 # --- FAQ ---
